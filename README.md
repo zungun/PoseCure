@@ -23,7 +23,9 @@ git checkout -b <branch 이름>
 git add .
 5. 로컬 저장소에 커밋 commit
 git config --global user.name "NAME"
+
 git config --global user.email "EMAIl"
+
 git commit -m "MSG"
 6. 리모트 저장소에 푸시 push
 git push origin <branch name>
